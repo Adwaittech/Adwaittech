@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog : Homepage</title>
+    <title>Blog : </title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/editor.css">
+    <link rel="stylesheet" href="css/blog.css">
 
 </head>
 <body>
@@ -19,17 +20,18 @@
             <li class="link-item"><a href="/editor" class="link">editor</a></li>
         </ul>
     </nav>
+    
+    <div class="banner"></div>
 
-    <header class="header">
-        <div class="content">
-            <h1 class="heading">
-                <span class="small">welcome in the world of</span>
-                blog
-                <span class="no-fill">writing</span>
-            </h1>
-            <a href="/editor" class="btn">write a blog</a>
+    <div class="blog">
+        <h1 class="title"></h1>
+        <p class="published"><span>published at - </span></p>
+        <div class="article">
+            
         </div>
-    </header>
+    </div>
+
+    <h1 class="sub-heading">Read more</h1>
 
     <!-- blog section -->
     <section class="blogs-section">
@@ -46,6 +48,7 @@
 
     <script src="js/firebase.js"></script>
     <script src="js/home.js"></script>
+    <script src="js/blog.js"></script>
     
 </body>
 </html>
